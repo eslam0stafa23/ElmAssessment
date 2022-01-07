@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/bg_edit_text.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/ic_baseline_location.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/ic_baseline_photo_library.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/ic_baseline_view_list_24.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/drawable/spinner_background.xml" value="0.5609375" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/activity_main.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/dialog_filter_incidents.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/fragment_dashboard.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/fragment_home.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/fragment_login.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/fragment_verify_otp.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/item_incident.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/item_spinner.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/layout_progress.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/layout/sheet_change_incident.xml" value="0.5447916666666667" />
+        <entry key="..\:/Users/eslam/AndroidStudioProjects/ElmAssessment/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

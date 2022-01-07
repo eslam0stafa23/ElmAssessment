@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/navigation_login">
+
+  <fragment
+    android:id="@+id/navigation_home"
+    android:name="com.assessment.elm.ui.home.HomeFragment"
+    android:label="@string/title_home"
+    tools:layout="@layout/fragment_home" />
+
+  <fragment
+    android:id="@+id/navigation_dashboard"
+    android:name="com.assessment.elm.ui.dashboard.DashboardFragment"
+    android:label="@string/title_dashboard"
+    tools:layout="@layout/fragment_dashboard" />
+
+  <fragment
+    android:id="@+id/navigation_login"
+    android:name="com.assessment.elm.ui.login.LoginFragment"
+    android:label="@string/title_notifications"
+    tools:layout="@layout/fragment_login" />
+
+  <fragment
+    android:id="@+id/navigation_verify_otp"
+    android:name="com.assessment.elm.ui.login.VerifyOtpFragment"
+    android:label="@string/title_verify_otp"
+    tools:layout="@layout/fragment_verify_otp">
+    <argument
+      android:name="email"
+      app:argType="string"
+      app:nullable="false" />
+  </fragment>
+
+  <dialog
+    android:id="@+id/navigation_change_status_sheet"
+    android:name="com.assessment.elm.ui.home.ChangeIncidentStatusBottomSheet"
+    android:label="@string/title_change_status"
+    tools:layout="@layout/sheet_change_incident" >
+    <argument
+      app:argType="string"
+      android:name="incidentId"
+      app:nullable="false"/>
+  </dialog>
+
+  <action
+    android:id="@+id/action_navigate_to_navigation_verify_otp"
+    app:destination="@+id/navigation_verify_otp" />
+
+  <action
+    android:id="@+id/action_navigate_to_navigation_dashboard"
+    app:destination="@+id/navigation_dashboard" />
+
+  <action
+    android:id="@+id/action_navigate_to_navigation_change_status_sheet"
+    app:destination="@+id/navigation_change_status_sheet" />
+
+</navigation>

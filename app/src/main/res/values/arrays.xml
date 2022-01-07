@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="incident_status_list">
+    <item>@string/status_1</item>
+    <item>@string/status_2</item>
+    <item>@string/status_3</item>
+    <item>@string/status_4</item>
+    <item>@string/status_5</item>
+    <item>@string/status_6</item>
+  </string-array>
+</resources>

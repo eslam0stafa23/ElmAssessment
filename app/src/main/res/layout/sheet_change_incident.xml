@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/_12sdp"
+  android:orientation="vertical">
+
+  <include
+    android:id="@+id/layout_progress"
+    layout="@layout/layout_progress"
+    android:layout_height="@dimen/_64sdp"
+    android:layout_width="match_parent" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/change_incident_status"
+    android:textColor="@color/color_black_text"
+    android:textSize="@dimen/_16ssp" />
+
+  <Spinner
+    android:id="@+id/spinnerIncidentStatus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_24sdp"
+    android:layout_marginTop="@dimen/_18sdp"
+    android:layout_marginEnd="@dimen/_24sdp"
+    android:padding="@dimen/_18sdp"
+    android:entries="@array/incident_status_list"/>
+
+  <Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_32sdp"
+    android:layout_marginEnd="@dimen/_32sdp"
+    android:layout_marginTop="@dimen/_22sdp"
+    android:text="@string/btn_submit" />
+
+</LinearLayout>

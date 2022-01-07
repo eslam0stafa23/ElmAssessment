@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="top|center"
+  android:background="@color/background_gray"
+  android:orientation="vertical"
+  tools:context=".ui.home.HomeFragment">
+
+  <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:contentDescription="@null"
+    android:src="@drawable/ic_elm_logo"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/_14sdp"
+    android:textSize="@dimen/_16ssp"
+    android:text="Elm Android Assessment"/>
+
+
+  <EditText
+    android:id="@+id/etEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_24sdp"
+    android:layout_marginTop="@dimen/_32sdp"
+    android:layout_marginEnd="@dimen/_24sdp"
+    android:ems="10"
+    android:hint="@string/please_enter_your_email"
+    android:inputType="textEmailAddress" />
+
+  <Button
+    android:id="@+id/btnNext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_32sdp"
+    android:text="@string/btn_next" />
+</LinearLayout>

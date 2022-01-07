@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/background_gray"
+  android:gravity="center"
+  android:padding="@dimen/_32sdp"
+  android:orientation="vertical"
+  tools:context=".ui.home.HomeFragment">
+
+  <include
+    android:id="@+id/layout_progress"
+    layout="@layout/layout_progress"
+    android:layout_height="@dimen/_64sdp"
+    android:layout_width="match_parent" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="@dimen/_14ssp"
+    android:text="@string/enter_otp_hint" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/_24sdp"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <EditText
+      android:id="@+id/etCode1"
+      android:layout_width="@dimen/_40sdp"
+      android:layout_height="@dimen/_40sdp"
+      android:layout_marginEnd="@dimen/_6sdp"
+      android:background="@drawable/bg_edit_text"
+      android:gravity="center"
+      android:hint="@string/dash"
+      android:importantForAutofill="no"
+      android:inputType="number"
+      android:maxLength="1"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/_15ssp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/etCode2"
+      android:layout_width="@dimen/_40sdp"
+      android:layout_height="@dimen/_40sdp"
+      android:layout_marginEnd="@dimen/_6sdp"
+      android:background="@drawable/bg_edit_text"
+      android:gravity="center"
+      android:hint="@string/dash"
+      android:importantForAutofill="no"
+      android:inputType="number"
+      android:maxLength="1"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/_15ssp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/etCode3"
+      android:layout_width="@dimen/_40sdp"
+      android:layout_height="@dimen/_40sdp"
+      android:layout_marginEnd="@dimen/_6sdp"
+      android:background="@drawable/bg_edit_text"
+      android:gravity="center"
+      android:hint="@string/dash"
+      android:importantForAutofill="no"
+      android:inputType="number"
+      android:maxLength="1"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/_15ssp"
+      android:textStyle="bold" />
+
+    <EditText
+      android:id="@+id/etCode4"
+      android:layout_width="@dimen/_40sdp"
+      android:layout_height="@dimen/_40sdp"
+      android:layout_marginEnd="@dimen/_6sdp"
+      android:background="@drawable/bg_edit_text"
+      android:gravity="center"
+      android:hint="@string/dash"
+      android:importantForAutofill="no"
+      android:inputType="number"
+      android:maxLength="1"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/_15ssp"
+      android:textStyle="bold" />
+
+
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/btnLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_32sdp"
+    android:text="@string/login" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+  <string name="app_name">ElmAssessment</string>
+  <string name="title_home">Home</string>
+  <string name="title_dashboard">Dashboard</string>
+  <string name="title_notifications">Notifications</string>
+  <string name="title_login">Login</string>
+  <string name="title_verify_otp">Verify OTP</string>
+  <string name="title_change_status">Change Incident Status</string>
+
+  <string name="loading">Loading…</string>
+  <string name="connection_error">Connection Error!</string>
+  <string name="btn_next">Next</string>
+  <string name="btn_submit">Submit</string>
+  <string name="please_enter_your_email">Please enter your email</string>
+  <string name="login">Login</string>
+  <string name="dash">-</string>
+  <string name="enter_otp_hint">Please enter the OTP code you received on your email</string>
+  <string name="incidents_status_summary_label">Incidents Status Summary</string>
+  <string name="incidents_status">Incidents\nStatus</string>
+  <string name="error_fetching_incidents_data">Error fetching incidents data!</string>
+
+  <string name="status_1">Select a Status</string>
+  <string name="status_2">Under Investigation</string>
+  <string name="status_3">On Hold</string>
+  <string name="status_4">Open</string>
+  <string name="status_5">Resolved</string>
+  <string name="status_6">New</string>
+  <string name="change_incident_status">Change Incident Status</string>
+  <string name="select_date">Select a Date</string>
+  <string name="filter_hint">Please select a date or status to filter the list</string>
+  <string name="reset_btn">Reset</string>
+  <string name="incidents_list_error">Error fetching incidents list!</string>
+  <string name="email_error">Please enter your email!</string>
+  <string name="enter_code_hint">Please enter the code!</string>
+  <string name="login_error">An error has been occurred while trying to log you in!!</string>
+  <string name="change_status_error">An error has been occurred while changing Incident status!</string>
+  <string name="select_status">Please select a status!</string>
+</resources>

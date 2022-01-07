@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  app:cardCornerRadius="@dimen/_8sdp"
+  android:layout_margin="@dimen/_8sdp"
+  android:id="@+id/layoutIncident"
+  android:layout_height="wrap_content">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+      android:id="@+id/viewPriority"
+      android:layout_width="@dimen/_5sdp"
+      android:layout_height="match_parent"
+      tools:background="@color/red" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/_5sdp"
+      android:orientation="vertical"
+      android:padding="@dimen/_8sdp"
+      app:layout_constraintStart_toEndOf="@+id/viewPriority">
+
+      <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        tools:text="This is the incident description" />
+
+      <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_11ssp"
+        tools:text="Created: 05:00 AM" />
+
+      <TextView
+        android:id="@+id/tvLastUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_11ssp"
+        tools:text="Last Updated: 05:00 AM" />
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/tvStatus"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:ellipsize="end"
+          android:gravity="start"
+          android:maxLines="1"
+          android:textSize="@dimen/_11ssp"
+          tools:text="Status: Resolved" />
+
+        <ImageView
+          android:id="@+id/ivLocation"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/_8sdp"
+          android:contentDescription="@null"
+          android:src="@drawable/ic_baseline_location" />
+
+        <ImageView
+          android:id="@+id/ivPhotos"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/_8sdp"
+          android:contentDescription="@null"
+          android:src="@drawable/ic_baseline_photo_library" />
+      </LinearLayout>
+
+
+    </LinearLayout>
+  </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
